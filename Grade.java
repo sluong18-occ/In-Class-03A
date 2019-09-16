@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Grade
 {
-  public statidc final String STUDENT = "Put your OCC login name here";
+  public static final String STUDENT = "Put your OCC login name here";
   public static final String ASSIGNMENT = "H01-C";
   
   private String grade;
