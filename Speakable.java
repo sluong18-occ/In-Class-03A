@@ -1,3 +1,6 @@
-package ico3b.question3;
+package ic03b;
 
-public cla
+public interface Speakable
+{
+  void speak();
+}
