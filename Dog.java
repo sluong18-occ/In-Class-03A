@@ -1,17 +1,23 @@
 package ic03b.question3;
 
-import java.util.*;
-
-public class AnimalRunner
+public class Dog extends Speakable
 {
-  public static void main(String[] args)
-  {
-    Arraylist dogcatList = new ArrayList();
-    dogcatList.add(new Dog("Fred"));
-    dogcatList.add(new Cat("Wanda"));
-    for (Object obj : dogcatList)
-    {
-      obj.speak();
-    }
-  }
+	public class Dog
+	{
+		private String name;
+		
+		public Dog(String name)
+		{
+			this.name = name;
+		}
+		
+		public void speak()
+		{
+			System.out.println("Woof! Woof!");
+		}
+		public String toString()
+		{
+			return "Dog:	" + name;
+		}
+	}
 }
